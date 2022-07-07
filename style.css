@@ -135,3 +135,38 @@ button {
     font-size: 18px;
     color: #373b41;
 }
+
+/* third section  */
+
+.third_sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    height: 400px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1F2937;
+}
+
+
+.speaker {
+    font-size: 20px;
+    font-weight: bolder;
+    color: #000000;
+    text-align: left;
+}
+
+.alignment {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 770px;
+}
+
+.speaker {
+    margin-right: 35px;
+}
+
+/* fourth section  */
