@@ -170,3 +170,66 @@ button {
 }
 
 /* fourth section  */
+
+.fourth_sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    height: 400px;
+    /* font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1F2937; */
+} 
+
+.call_action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    padding: 0 80px;
+    width: 800px;
+    height: 200px;
+    border-radius: 8px;
+
+}
+
+.call_maintxt {
+    font-size: 28px;
+    color: #ffffff;
+}
+
+.call_submaintxt {
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.call_button > button{
+    width: 80px;
+    background-color: #3882f6;
+    color: white;
+    padding: 5px 5px;
+    width: 100px;
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 8px;
+    border-style:solid;
+    border-width: 2px;
+}
+
+
+/* footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    gap: 10px;
+    color: #ffffff;
+    background-color: #1F2937;
+    font-size: 13px;
+
+}
